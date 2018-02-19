@@ -26,6 +26,12 @@ java -jar target/benchmarks.jar
 java -jar target/benchmarks.jar StringCreation*
 ```
 
+### Run single benchmark with a slightly faster feedback loop
+
+```
+java -jar target/benchmarks.jar StringCreation* -wi 5 -i 5 -f 5
+```
+
 ### Benchmark options
 
 Check [JMH](http://openjdk.java.net/projects/code-tools/jmh/) options with:
